@@ -10,18 +10,8 @@ Remote Repository: Git also allows you to work with remote repositories, which a
 
 Here's a diagram illustrating these components:
 
-Copy code
-    Working Directory
-          |
-          v
-      Staging Area
-          |
-          v
-    Local Repository
-          |
-          v
-    Remote Repository
-    
+    Working Directory --> Staging Area --> Local Repository --> Remote Repository
+   
 In this diagram, changes are made in the working directory, then staged in the staging area, and finally committed to the local repository. The changes can then be pushed to a remote repository for collaboration with others.
 
 This distributed architecture allows developers to work offline, commit changes locally, and then synchronize their work with remote repositories when they are online. It also provides robustness and redundancy since each developer's local repository contains the full history of the project.
